@@ -1,0 +1,15 @@
+# jsh-TESTING: a file to test the 'source' command
+#
+echo "hi from the test file that is being sourced :-)" # i am also ignored
+echo "starting top..."
+sleep 2
+    top
+echo "top done"
+echo "now executing a pipe statement: ls | grep jsh | wc"
+    ls | grep jo | wc
+echo "^^ this was the output"
+
+	echo "i am echo preceded by a tab..."
+
+            echo "by from the sourced file"
+#########################################################################################
