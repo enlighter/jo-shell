@@ -99,3 +99,6 @@ One address for all your pull requests: https://github.com/jovanbulck/jo-shell/p
 * Whenever possible, choose the `bool` datatype defined in `stdbool.h` over integers
 * Don't use magic numbers; use `#define KEY value` instead.
 * Multiline macro's should always go into a `do { .. } while(false)` loop: see e.g. [this rationale](http://stackoverflow.com/questions/154136/do-while-and-if-else-statements-in-c-c-macros)
+
+
+##############################################################################
